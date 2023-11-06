@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:  0 ;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.main_section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.main{
+    width: 350px;
+    height: 500px;
+    background: greenyellow;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.main_menu ul{
+    background: red !important;
+    justify-content: center;
+}
